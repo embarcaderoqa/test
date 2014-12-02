@@ -8,6 +8,7 @@ uses
 
 type
   TForm2 = class(TForm)
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -20,5 +21,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm2.FormCreate(Sender: TObject);
+begin
+  Showmessage('Test');
+end;
 
 end.
