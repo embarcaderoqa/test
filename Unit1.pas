@@ -3,11 +3,11 @@ unit Unit1;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs;
 
 type
-  TForm2 = class(TForm)
+  TForm1 = class(TForm)
   private
     { Private declarations }
   public
@@ -15,10 +15,10 @@ type
   end;
 
 var
-  Form2: TForm2;
+  Form1: TForm1;
 
 implementation
 
-{$R *.dfm}
+{$R *.fmx}
 
 end.
