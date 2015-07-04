@@ -8,11 +8,10 @@ uses
 
 type
   TForm1 = class(TForm)
-    procedure FormCreate(Sender: TObject);
   private
-    { Déclarations privées }
+    { Private-Deklarationen }
   public
-    { Déclarations publiques }
+    { Public-Deklarationen }
   end;
 
 var
@@ -21,10 +20,5 @@ var
 implementation
 
 {$R *.fmx}
-
-procedure TForm1.FormCreate(Sender: TObject);
-begin
-ShowMessage('This is a Test');
-end;
 
 end.
